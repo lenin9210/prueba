@@ -25,5 +25,29 @@ public class Venta {
 	//private String fecha;
 	@OneToMany(mappedBy="detalleventa")
 	private Set<DetalleVenta> detalleventa;
+	public Integer getIdventa() {
+		return idventa;
+	}
+	public void setIdventa(Integer idventa) {
+		this.idventa = idventa;
+	}
+	public Integer getIdcliente() {
+		return idcliente;
+	}
+	public void setIdcliente(Integer idcliente) {
+		this.idcliente = idcliente;
+	}
+	public LocalDateTime getFecha() {
+		return fecha;
+	}
+	public void setFecha(LocalDateTime fecha) {
+		this.fecha = fecha;
+	}
+	public Set<DetalleVenta> getDetalleventa() {
+		return detalleventa;
+	}
+	public void setDetalleventa(Set<DetalleVenta> detalleventa) {
+		this.detalleventa = detalleventa;
+	}
 
 }

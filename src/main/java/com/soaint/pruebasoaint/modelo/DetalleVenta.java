@@ -19,6 +19,24 @@ public class DetalleVenta {
 	
 	private Integer idventa;
 	private Integer idproducto;
+	public Integer getIddetalleventa() {
+		return iddetalleventa;
+	}
+	public void setIddetalleventa(Integer iddetalleventa) {
+		this.iddetalleventa = iddetalleventa;
+	}
+	public Integer getIdventa() {
+		return idventa;
+	}
+	public void setIdventa(Integer idventa) {
+		this.idventa = idventa;
+	}
+	public Integer getIdproducto() {
+		return idproducto;
+	}
+	public void setIdproducto(Integer idproducto) {
+		this.idproducto = idproducto;
+	}
 	
 	
 
